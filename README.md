@@ -22,6 +22,12 @@
 - ```cat <filename>```: simply displays the file
 - ```cat -vet``` : shows hidden characters in the file
 
+### cut
+
+Command can be used to display certain fields within a file. ```-d``` is used to specify field delimiter.
+
+```cut -f1,3 -d":" file.txt``` - show field 1 & 3 , delimiter is :
+
 ### sort - organize data in columns
 
 ### head / tail - top / bottom n lines from the file (default is 10)
