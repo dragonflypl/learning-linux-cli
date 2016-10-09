@@ -12,3 +12,4 @@
 # Helper
 
 - ```ctrl + l``` - clear the screen
+- ```echo $<name>``` - list env variables that start with name
