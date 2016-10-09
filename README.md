@@ -37,9 +37,9 @@
  - ```linenumber + G``` : go to line number
  - ```/``` : starts searching. moving forward is with ```n``` and backwards is with ```N```
  - ```?``` : starts searching backwards. moving backward is with ```n``` and forward is with ```N```
- - G – go to the end of file, so now using ? will search from the end
- - g – go to the start of file, so now using / will search from the beginning
- - F - simulate following the file (just like ```tail -f```)
+ - ```G``` – go to the end of file, so now using ? will search from the end
+ - ```g``` – go to the start of file, so now using / will search from the beginning
+ - ```F``` - simulate following the file (just like ```tail -f```)
 
 
 # Helper
