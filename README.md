@@ -20,21 +20,31 @@
 ### cat 
 
 - ```cat <filename>```: simply displays the file
-- display certain columns of the file
 - ```cat -vet``` : shows hidden characters in the file
 
 ### sort - organize data in columns
 
-### head - top n lines from the file
+### head / tail - top / bottom n lines from the file (default is 10)
 
-### tail - bottom n lines from the file
+- ```-n <numlines>``` : displays n lines
+- ```-f``` : follow the file, ```tail -f log.txt```
 
-### less - page through the file
+### more / less
 
+- ```more``` page through the longer files. Don't use more, use less
+- ```less``` "less is more" i.e. less can page up / down through files and it is possible to search
+ - ```page up / page down / up / down```: to move between pages / lines
+ - ```linenumber + G``` : go to line number
+ - ```/``` : starts searching. moving forward is with ```n``` and backwards is with ```N```
+ - ```?``` : starts searching backwards. moving backward is with ```n``` and forward is with ```N```
+ - G – go to the end of file, so now using ? will search from the end
+ - g – go to the start of file, so now using / will search from the beginning
+ - F - simulate following the file (just like ```tail -f```)
 
 
 # Helper
 
+- ```!$``` - represents last file/directory argument that was previoysly used
 - ```dos2unix <filename>``` - removes additional hidden characters (like from windows) from the file
 - ```ctrl + l``` - clear the screen
 - ```echo $<name>``` - list env variables that start with name
