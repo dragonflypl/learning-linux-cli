@@ -53,6 +53,11 @@ To sort by numeric field, add ```-n``` that stands for numeric sort.
  - ```g``` – go to the start of file, so now using / will search from the beginning
  - ```F``` - simulate following the file (just like ```tail -f```)
 
+## Working with streams and pipes
+
+- ```>``` - write to file (override is exists), ```>>``` - append to file. Specifying ```2>``` means error output and ```1>``` std. output (which is the default) e.g. ```ls -l > file.txt 2> error.txt``` will write std output to file.txt and errors to error.txt.
+- ```<``` - read from file
+- ```|``` - unnamed pipe
 
 # Helper
 
