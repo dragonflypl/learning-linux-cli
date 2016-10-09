@@ -13,3 +13,8 @@
 
 - ```ctrl + l``` - clear the screen
 - ```echo $<name>``` - list env variables that start with name
+- ```chsh -l``` - list available shells (e.g. bash)
+- ```chsh -s <path-to-shell>``` - sets default sheel e.g. /usr/bin/bash
+- ```cat /etc/shells``` - also lists available shells
+- default shell location configuration: ```/etc/passwd```
+- simple grepping: ```grep <stringtosearch> <filetosearch>```
