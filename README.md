@@ -30,6 +30,12 @@ Command can be used to display certain fields within a file. ```-d``` is used to
 
 ### sort - organize data in columns
 
+```sort filename``` - outputs sorted file content. ```-r``` does reverse sorting. 
+
+To sort by column use ```-k```, and to specify delimiter use ```-t```. ```-u```` is for unique.
+
+To sort by numeric field, add ```-n``` that stands for numeric sort.
+
 ### head / tail - top / bottom n lines from the file (default is 10)
 
 - ```-n <numlines>``` : displays n lines
