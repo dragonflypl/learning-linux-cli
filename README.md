@@ -68,7 +68,12 @@ ls -l | tee dump.txt
 ```
 ## Create, kill and monitor process
 
-- ```uptime``` - uptime stats
+- ```uptime``` - uptime stats.
+- ```jobs``` - displays current background jobs. Basically if you can be logged only once to terminal, then if you have a long running operation, you can run it in background, and proceed to the second one.
+- ```bg``` - displays background commands
+ - ```<command> &``` - ```&``` suffix starts command in the background
+ - ```ctrl + z``` - moves task to the background
+ - ```fg <num>``` - brings task number ```<num>``` to the foreground
 
 # Helper
 
