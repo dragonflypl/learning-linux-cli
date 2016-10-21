@@ -59,6 +59,17 @@ To sort by numeric field, add ```-n``` that stands for numeric sort.
 - ```<``` - read from file
 - ```|``` - unnamed pipe
 
+### tee 
+
+```tee``` command enables sending stream to both file & screen:
+
+```
+ls -l | tee dump.txt
+```
+## Create, kill and monitor process
+
+
+
 # Helper
 
 - ```!$``` - represents last file/directory argument that was previoysly used
