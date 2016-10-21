@@ -68,7 +68,7 @@ ls -l | tee dump.txt
 ```
 ## Create, kill and monitor process
 
-
+- ```uptime``` - uptime stats
 
 # Helper
 
