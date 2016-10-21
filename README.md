@@ -69,6 +69,8 @@ ls -l | tee dump.txt
 ## Create, kill and monitor process
 
 - ```ps``` - lists proceses, ```pgrep``` is shorthand for ```ps | grep```
+ - ```kill <id>``` - kills process by id
+ - ```pkill <name>``` - kills processes by name, no need to specify id
 - ```uptime``` - uptime stats.
 - ```jobs``` - displays current background jobs. Basically if you can be logged only once to terminal, then if you have a long running operation, you can run it in background, and proceed to the second one.
 - ```bg``` - displays background commands
