@@ -78,6 +78,21 @@ ls -l | tee dump.txt
  - ```ctrl + z``` - moves task to the background
  - ```fg <num>``` - brings task number ```<num>``` to the foreground
 
+## VI
+
+It has three modes:
+- command
+- insert/edit : to enter, press ```i``` ESC to leave
+- last line: to enter, press ```:```
+
+Commands:
+- ```q``` - quit
+- ```q!``` - quite without settings
+- ```x``` - save and exit
+- ```i``` - enter insert mode, ```I``` enter insert mode at the beginning of the line, ```A``` puts cursor at the end of the line, ```o``` and ```O``` will create new line below/above cursor position
+- ```<num>G``` - goto line
+
+
 # Helper
 
 - ```!$``` - represents last file/directory argument that was previoysly used
