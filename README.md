@@ -92,6 +92,10 @@ Commands:
 - ```i``` - enter insert mode, ```I``` enter insert mode at the beginning of the line, ```A``` puts cursor at the end of the line, ```o``` and ```O``` will create new line below/above cursor position
 - ```<num>G``` - goto line
 
+Opening the file with options:
+- ```vi +<linenum> <filename>``` : opens file and navigates to given line
+- ```vi +<string> <filename>``` : opens file and navigates to first occurence of the string
+
 
 # Helper
 
