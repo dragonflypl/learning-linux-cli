@@ -96,6 +96,12 @@ Opening the file with options:
 - ```vi +<linenum> <filename>``` : opens file and navigates to given line
 - ```vi +<string> <filename>``` : opens file and navigates to first occurence of the string
 
+### Serach and replace
+
+- ```%``` - search whole file, ```%s/tofind/toreplace```
+- ```<num>,<num>``` - search range
+- ```/``` - regular search, ```n``` & ```N``` goes to next/previous occurence
+
 
 # Helper
 
